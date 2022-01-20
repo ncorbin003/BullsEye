@@ -19,7 +19,7 @@ class AboutViewController: UIViewController {
       super.viewDidLoad()
 
       if let url = Bundle.main.url(
-        forResource: "BullsEye", withExtension: "html") {
+        forResource: "Bullseye", withExtension: "html") {
         let request = URLRequest(url: url)
         webView.load(request)
       }
